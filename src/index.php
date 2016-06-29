@@ -9,5 +9,5 @@
  $smarty->compile_dir = "../smarty/templates_c/";
  $smarty->cache_dir = "../smarty/cache/";
 
- $smarty->assign("message", "Hello world!");
+
  $smarty->display("test.tpl");
