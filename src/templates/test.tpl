@@ -9,12 +9,12 @@
   </form>
 
 <script>
-  function handleFileSelect(evt) {
-    var file = evt.target.file;
-    console.log(file);
+  function handleExcelFileSelect(evt) {
+
+    console.log(evt);
   }
 
-  document.getElementById('file').addEventListener('change', handleFileSelect, false);
+  document.getElementById('file').addEventListener('change', handleExcelFileSelect, false);
 </script>
 </body>
 </html>
